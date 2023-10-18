@@ -10,7 +10,7 @@ function App() {
   function startGame() {
     setTimeout(() => {
       setStart(!start)
-    },300)
+    },100)
   }
 
   function gotoIntro() {
@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <div className="container">
-          <h1 onClick={gotoIntro}>Which player played on these clubs</h1>
+          <h1 onClick={gotoIntro}>Football Player Quiz</h1>
           {!start ? (
             <Start startGame={startGame}/>
           ) : <Play players={players}/>}

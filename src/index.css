@@ -7,7 +7,7 @@
 body {
   background: radial-gradient(circle, rgb(54, 68, 117) 0%, rgb(26, 35, 65) 100%);
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 #root {
@@ -21,7 +21,7 @@ body {
 
 .container h1 {
   display: flex;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin: 0;
   width: fit-content;
 }
@@ -39,13 +39,27 @@ body {
   height: 95%;
 }
 
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
 .intro h3 {
   font-size: 2rem;
   font-weight: normal;
 }
 
+.intro h2 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
 #intro-btn {
-  padding: 8px 12px;
+  padding: 6px 10px;
   font-size: 1.3rem;
   background: gold;
   color: black;
@@ -53,8 +67,7 @@ body {
   border-radius: 24px;
   width: 200px;
   cursor: pointer;
-  position: relative;
-  bottom: 80px;
+  font-family: 'Jost', sans-serif;
 }
 
 #intro-btn:hover {
@@ -249,9 +262,10 @@ body {
 }
 
 .answer input {
-  padding: 8px;
+  padding: 4px 8px;
   border-radius: 16px;
   font-size: 1rem;
+  font-family: 'Jost', sans-serif;
 }
 
 .answer input:focus {
@@ -261,7 +275,7 @@ body {
 .answer-btn, .next-btn {
   height: fit-content;
   width: 25%;
-  padding: 8px;
+  padding: 6px 8px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -270,6 +284,7 @@ body {
   color: white;
   cursor: pointer;
   border: none;
+  font-family: 'Jost', sans-serif;
 }
 
 .next-btn {

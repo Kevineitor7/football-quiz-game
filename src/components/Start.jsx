@@ -21,8 +21,11 @@ export default function Start({
                         <div className='logo'>loading</div>
                 )}
             </div>
-            <h3>Test your football knowledge</h3>
-            <button id='intro-btn' onClick={startGame}>Start playing</button>
+            <div className='intro-text'>
+              <h3>Guess the player based on the clubs he played at</h3>
+              <h2>Test your football knowledge</h2>
+              <button id='intro-btn' onClick={startGame}>Start playing</button>
+            </div>
             <div className="intro-clubs2">
             {clubsBottom ? (
                     clubsBottom.map((club, index) => (
