@@ -1,4 +1,4 @@
-Football player quiz game
+# Football player quiz game
 
 Mini-game about guessing the football player based on the teams he played in.
 
