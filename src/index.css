@@ -447,7 +447,7 @@ body {
   }
 
   .logo:nth-child(5)::before {
-    top: 350px;
+    top: 360px;
     font-size: 1.5rem;
   }
   
@@ -521,7 +521,7 @@ body {
   }
 
   .logo:nth-child(5)::before {
-    top: 330px;
+    top: 310px;
     font-size: 1.3rem;
   }
   
@@ -566,11 +566,12 @@ body {
   }
 
   .answer {
-    width: 280px;
+    width: 290px;
+    justify-content: space-between;
   }
 
   .answer input {
-    width: 40%;
+    width: 45%;
     font-size: 0.8rem;
     padding: 6px;
   }
@@ -578,6 +579,7 @@ body {
   .answer-btn, .next-btn {
     padding: 6px;
     font-size: 0.9rem;
+    width: 40%;
   }
 
   .player-name {
